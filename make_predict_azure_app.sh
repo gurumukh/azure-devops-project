@@ -25,5 +25,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST localhost:$PORT/predict 
+     -X POST https://flask-ml-proj.azurewebsites.net:$PORT/predict 
      #your application name <yourappname>goes here
