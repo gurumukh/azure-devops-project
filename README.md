@@ -59,7 +59,7 @@ The source control system is where the application's source code is stored, and 
 ![Git clone](./sc/batch-readme.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-![Git clone](./sc/build-job.png)
+![Git clone](./sc/build-success.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 ![Git clone](./sc/running-az-pipeservice.png)
