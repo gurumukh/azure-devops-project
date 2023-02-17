@@ -1,23 +1,63 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project we send data as input for a machine learning model to predict the price of a house.
+Example:
+These are parameters we are sending to machine learning model 
+`{  
+   "CHAS":{  
+      "0":0
+   },
+   "RM":{  
+      "0":6.575
+   },
+   "TAX":{  
+      "0":296.0
+   },
+   "PTRATIO":{  
+      "0":15.3
+   },
+   "B":{  
+      "0":396.9
+   },
+   "LSTAT":{  
+      "0":4.98
+   }`
+These features are used as input for a machine learning model to predict the price of a house.
+
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram (Shows how key parts of the system work)
+
+            
+ Azure Pipeline   <--------   Self-hosted Agent
+         |                              |
+         |                              |
+         |                              |
+         |                              |
+      Source        <--------     Build and Test   
+     Control                      Environment     
+
+* Explanation of components
+
+
+The architecture consists of an Azure Pipeline service that initiates the build and deployment process, and communicates with a self-hosted agent that is running on a user-managed machine. The self-hosted agent is responsible for executing the build and test steps, as well as deploying the application to the target environment.
+
+The source control system is where the application's source code is stored, and is integrated with the Azure Pipeline service to trigger the build and deployment process. The build and test environment is where the application is built and tested, and is also integrated with the Azure Pipeline service to provide feedback on the build and test results.
+
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 
+
 * Project cloned into Azure Cloud Shell
+![Git clone](./sc/gitclone.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
@@ -47,5 +87,3 @@ Port: 443
 ## Demo 
 
 <TODO: Add link Screencast on YouTube>
-
-
