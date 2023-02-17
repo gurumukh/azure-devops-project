@@ -43,7 +43,7 @@ The architecture consists of an Azure Pipeline service that initiates the build 
 The source control system is where the application's source code is stored, and is integrated with the Azure Pipeline service to trigger the build and deployment process. The build and test environment is where the application is built and tested, and is also integrated with the Azure Pipeline service to provide feedback on the build and test results.
 
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+ * Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 ![Git clone](./sc/project-running.png)
@@ -208,7 +208,11 @@ The output should look similar to this:
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Here are some additional features that we can  consider adding to our project to improve the accuracy of our house price predictions:
+
+* Property characteristics: we could consider including additional features that describe the physical characteristics of the property, such as the number of bedrooms, bathrooms, square footage, lot size, or age of the property.
+
+* Location features: We could include location-based features, e.g. schools, parks, mall), crime rates, and other neighborhood features that might affect property values.
 
 ## Demo 
 
