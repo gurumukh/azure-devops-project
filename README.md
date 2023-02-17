@@ -33,16 +33,8 @@ These features are used as input for a machine learning model to predict the pri
 ## Instructions
 
 * Architectural Diagram (Shows how key parts of the system work)
-
-            
- Azure Pipeline   <--------   Self-hosted Agent
-         |                              |
-         |                              |
-         |                              |
-         |                              |
-      Source        <--------     Build and Test   
-     Control                      Environment     
-
+ 
+![Git clone](./sc/arch.png)
 * Explanation of components
 
 
