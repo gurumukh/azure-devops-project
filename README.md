@@ -607,5 +607,4 @@ Here are some additional features that we can  consider adding to our project to
 * Location features: We could include location-based features, e.g. schools, parks, mall), crime rates, and other neighborhood features that might affect property values.
 
 ## Demo 
-
-<TODO: Add link Screencast on YouTube>
+[Click here to watch demo](https://www.youtube.com/watch?v=a6bgs2APn0E)
