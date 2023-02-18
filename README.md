@@ -3,7 +3,7 @@
 
 In this project we send data as input for a machine learning model to predict the price of a house.
 Example:
-These are parameters we are sending to machine learning model 
+These are parameters we are sending to machine learning model  
 `{  
    "CHAS":{  
       "0":0
