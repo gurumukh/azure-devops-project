@@ -28,8 +28,8 @@ These features are used as input for a machine learning model to predict the pri
 
 ## Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Trello Board](./sc/trello-board.png)
+* [Project plan in excel](https://github.com/gurumukh/azure-devops-project/blob/main/plan.xslx)
 
 ## Instructions
 
